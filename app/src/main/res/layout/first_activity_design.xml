@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    android:orientation="vertical"
+    android:elevation="30dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/colorAccent"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginBottom="20dp">
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID :"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="17sp"
+        android:fontFamily="@font/amaranth_bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/id_json"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/amaranth"
+        android:text="id_json"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="17sp"
+        android:fontFamily="@font/amaranth_bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+    <TextView
+        android:id="@+id/name_json"
+        android:text="name_json"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="17sp"
+        android:fontFamily="@font/amaranth"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email :"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="17sp"
+        android:fontFamily="@font/amaranth_bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/email_json"
+        android:text="email_json"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="17sp"
+        android:fontFamily="@font/amaranth"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
